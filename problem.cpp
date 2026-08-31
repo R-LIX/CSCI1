@@ -33,25 +33,52 @@ using namespace std;
 //     return 0;
 // }
 
-int main() {
+// int main() {
+//     double Score;
+//     cout<<"Enter you score: ";
+//     cin>>Score;
+//     if (Score>100||Score<0) {
+//         cout<<"invlaid Input";
+//     }
+//     else if (Score>=90) {
+//         cout<<"A";
+//     }
+//     else if (Score>=80) {
+//         cout<<"B";
+//     }
+//     else if ( Score>=70) {
+//         cout<<"C";
+//     }
+//     else if ( Score>=60) {
+//         cout<<"D";
+//     }
+//     else {
+//         cout<<"Please meet with Professor!";
+//     }
+//     return 0;
+// }
+
+int main1() {
     double Score;
     cout<<"Enter you score: ";
     cin>>Score;
     if (Score>100||Score<0) {
         cout<<"invlaid Input";
     }
-    else if (Score>=90) {
-        cout<<"A";
-    }
-    else if (Score>=80) {
-        cout<<"B";
+    else if ( Score>=60) {
+        cout<<"D";
     }
     else if ( Score>=70) {
         cout<<"C";
     }
-    else if ( Score>=60) {
-        cout<<"D";
+    else if (Score>=80) {
+        cout<<"B";
     }
+    else if (Score>=90) {
+        cout<<"A";
+    }
+
+
     else {
         cout<<"Please meet with Professor!";
     }
