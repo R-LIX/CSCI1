@@ -16,6 +16,6 @@ int main(){
     cin >>nickel;
     double total = (10*dimes)+(5*nickel)+(25*quater);
     cout<<"The total is "<<total<<" cents or "<<total/100<<"$ ";
-
+//HI
     return 0;
 }
