@@ -1,9 +1,7 @@
 //
 // Created by Ravis Rank Willix on 9/2/26.
 //
-//
-// Created by Ravis Rank Willix on 9/2/26.
-//
+
 #include <iostream> // Header for input/output functions
 using namespace std;
 int main (){
